@@ -1,0 +1,412 @@
+
+/* home css*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar-blur{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);  
+  }
+  
+.navbar-brand{
+    font-size: 2.8rem;
+    color:gold;
+    font-family: Times;
+    
+}
+.nav-link{
+  font-size:1.5rem;
+    color:gold;
+   margin-left: 15px;
+   margin-right: 15px;
+   font-family: Times;
+text-transform: capitalize;
+}
+.first{
+    background:url(B40.jpg);
+    background-size:cover;
+    background-position: 80% 30%;
+    height:100vh;
+    width:100%;
+   
+}
+.first h1
+{
+    
+    font: weight 700px;;
+    color:white;
+    font-family: Sans-serif;
+    font-size:4.5rem;
+
+}
+
+/*about us*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:  Helvetica;
+ 
+}
+.about{
+ 
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    background-image: url("B43.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 60% 80%;
+    
+   
+   
+  
+}
+.about img{
+
+  border-radius: 35px;
+height: 330px;
+width:500px;
+
+}
+.about-text{
+  width:600px;
+
+ 
+
+}
+.main{
+  width:1130px;
+  max-width:95%;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(249, 193, 115);
+  box-shadow: 10px 15px rgb(249, 193, 115);;
+}
+
+.about-text h1{
+  color:black;
+
+  text-transform:capitalize;
+
+  font-size: 4rem;
+  
+    font-family: Helvetica;
+ 
+}
+.about-text h4{
+  color:black;
+  font-size:30px;
+  text-transform: capitalize;
+  margin-bottom:25px;
+  letter-spacing :2px;
+  font-family:  Helvetica;
+}
+
+span{
+  color:gold;
+  font-family:  Helvetica;
+}
+.about-text p{
+color:black;
+letter-spacing:1px;
+line-height: 28px;
+font-size: 25px;
+margin-bottom:40px;
+font-family: 'Times New Roman', Times, serif;
+text-align: justify;
+text-justify: inter-word;
+font: weight 10px;
+
+}
+
+/* service css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family:Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size:cover;
+    background-position: 60% 80%;
+    
+    background-image: url("B46.jpg");
+}
+.wrapper h1{
+    font-size: 3em;
+
+    margin: 25px;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #111111;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px white;
+}
+.card i{
+    margin: 20px;
+    color: #581ed6;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: gold;
+}
+.card p{
+    color: white;
+    text-align: center;
+}
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+}
+
+@media(max-width:991px){
+    .wrapper{
+        padding: 25px;
+    }
+    .wrapper h1{
+        font-size: 80px;
+        font-weight: 600;
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
+
+/*Gallery*/
+
+.carousel-item{
+
+    background-size:cover;
+    background-position: 60% 60%;
+    height:100vh;
+    width:100%;
+   
+}
+
+.gallery{
+  font-size: 3em;
+
+  margin: 25px;
+}
+
+/*team*/
+*{ margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+  }
+
+  .team{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    background-color:rgb(218, 205, 205);
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    
+  }
+  .second{
+   
+    color:black;
+
+  text-transform:capitalize;
+
+  font-size: 5rem;
+  
+    font-family: Helvetica;
+  }
+  .card-title{
+    
+  font-size: 3rem;
+  color:white;
+  justify-content: center;
+  }
+  .card-text{
+    color:white;
+letter-spacing:1px;
+
+font-size: 14px;
+margin-bottom:40px;
+font-family: 'Times New Roman', Times, serif;
+text-align: justify;
+text-justify: inter-word;
+font: weight 10px;
+  }
+
+ /* contact*/
+ *{ margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+
+}
+
+.container1{
+
+  width: 80%;
+
+  margin:50px auto;
+  
+}
+
+.contact-box{
+  background: #fff;
+  display:flex;
+
+}
+.contact-left{
+  flex-basis:60%;
+  padding: 40px 60px;
+  background-color:wheat;
+}
+.contact-right{
+  flex-basis:40%;
+  padding:40px;
+  background:#d25c5c;
+  color:#fff;
+}
+.h1{
+  font-size: 3em;
+font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    margin-bottom: 70px;
+}
+
+.input-row{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+.input-row .input-group{
+  flex-basis:45%;
+
+}
+input{
+  width:100%;
+  border:none;
+  border-bottom:1px solid #ccc;
+  outline:none;
+  padding-bottom:5px;
+
+}
+textarea{
+  width:100%;
+  border:1px solid #ccc;
+  outline:none;
+  padding:10px;
+  box-sizing:border-box;
+
+}
+label{
+  margin-bottom:6px;
+  display:block;
+  color:black;
+
+}
+tr td:first-child{
+  padding-right: 30px;
+}
+tr td{
+  padding-top: 30px;
+}
+.contact-right.h3{
+  font-size: 3.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.contact-right.h5{
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Custom CSS for testimonials */
+.testimonials{
+  font-family:Helvetica;
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    background-size:cover;
+    background-position: 60% 80%;
+    background-image: url("g12.jpg") ;
+
+}
+.ram{
+  font-size: 3em;
+
+  margin: 25px;
+}
+
+
+.testimonial-card {
+  border: 4px solid #ccc;
+  border-radius: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 8px rgb(238, 236, 236);
+  width: 150%;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  border: 5px solid white;
+  
+  margin: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.testimonial-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: center;
+}
